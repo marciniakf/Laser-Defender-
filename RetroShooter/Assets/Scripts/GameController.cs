@@ -63,7 +63,7 @@ public class GameController : MonoBehaviour
 			yield return new WaitForSeconds(wavewait);
 			if (gameOver)
 			{
-				RestartText.text = "Press R for Restart Q for Quit";
+				RestartText.text = "Press R for Restart q for quit";
 				restart = true;
 				break;
 			}
